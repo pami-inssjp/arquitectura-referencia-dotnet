@@ -11,16 +11,16 @@ El proyecto contiene un ejemplo de una posible arquitecturas de referencia. La m
 
 ## Estructura del proyecto
 
-* **Soporte**: Este proyecto, provee tal cuál su nombre lo dice, diferentes clases de soporte para el resto de la aplicación: IoC, Logging, Configuración, etc.
+* **Soporte**: Este proyecto, provee tal cual su nombre lo dice, diferentes clases de soporte para el resto de la aplicación: IoC, Logging, Configuración, etc.
 * **Modelo**: Aquí se ubican todas las clases de dominio y las interfaces pertinentes a las mismas (IRepositorio por ejemplo)
-* **DataAccess_NH**: En esta librería se ubican todas las clases pertinentes al acceso a datos utilizando NHibernate como framework ORM, con Firehawk para el mapeo de clases. Aqui es donde se implementan las interfaces de repositorios. Se propone NHibernate ya que el mismo provee dialectos para diferentes motores de bases de datos en contraposición a EntityFramework que únicamente los provee para SQL Server y Oracle.
-* **Servicios**: En este proyecto se implementan todos los servicios que la aplicación va a exponer. Está basado en OWIN, con WebAPI 2, utilizando autorización a traves de JWT. OWIN provee la posibilidade de hostear los servicios ya sea en IIS como self hosted, evitando todo el acople de clases de ASP.Net
+* **DataAccess_NH**: En esta librería se ubican todas las clases pertinentes al acceso a datos utilizando NHibernate como framework ORM, con Firehawk para el mapeo de clases. Aquí es donde se implementan las interfaces de repositorios. Se propone NHibernate ya que el mismo provee dialectos para diferentes motores de bases de datos en contraposición a EntityFramework que únicamente los provee para SQL Server y Oracle.
+* **Servicios**: En este proyecto se implementan todos los servicios que la aplicación va a exponer. Está basado en OWIN, con WebAPI 2, utilizando autorización a traves de JWT. OWIN provee la posibilidad de hostear los servicios ya sea en IIS como self hosted, evitando todo el acople de clases de ASP.Net
 
 ## Requerimientos
 
-* **Visual Studio 2013 o superior** en cualquiera de sus versiones (Express, Ultimate, Professional, Community). La versión express se puede descargar desde [aquí] 
+* **Visual Studio 2013 o superior** en cualquiera de sus versiones (Express, Ultimate, Professional, Community). La versión express se puede descargar desde [aquí](https://www.visualstudio.com/)
 * **Nuget** (www.nuget.org) para el manejo de dependencias. En la mayoría de las versiones de VS ya se encuentra integrado, sino se deberá incluir la extensión
-* **SQL Server 2012 o superior** Se puede descargar la vesión Express en el siguiente [link]. 
+* **SQL Server 2012 o superior** Se puede descargar la versión Express en el siguiente [link](http://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx). 
 
 ##Licencia
 
